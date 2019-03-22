@@ -5,4 +5,4 @@ var FwdRef = require("undertaker-forward-reference");
 
 gulp.registry(FwdRef(["tasks/*.js"]));
 
-require("./tasks/prod-release.js");
+require("./tasks/deploy");
